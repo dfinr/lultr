@@ -40,13 +40,8 @@ To [use React Router on Netlify](https://www.freecodecamp.org/news/how-to-deploy
 
 Lultr.com is &copy; Copyright 2022 by David Finster. All Rights Reserved.
 
-### Contact
-
-lultr@pm.me  
-<https://twitter.com/LultrCom>
+Each joke is the property of the respective author and used by permission, with credit given if known. Please notify david@fortc.com if a joke has incorrect credit or should be removed.
 
 ## Credits
-
-Each joke is the property of the author and used by permission, with credit given. Please notify us if a joke has incorrect credit or should be removed.
 
 [Photo by Monstera](https://www.pexels.com/photo/happy-black-father-having-fun-with-daughter-5996870/) from Pexels

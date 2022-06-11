@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, CssBaseline, Typography, Box } from '@mui/material/';
-import { FaHome, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaEnvelope, FaGithub } from 'react-icons/fa';
 import Copyright from "./Copyright";
 
 function About() {
@@ -29,6 +29,9 @@ function About() {
                 <Box sx={{ display: 'flex', margin: '1rem auto 1rem', justifyContent: 'center', flexDirection: 'row', flexWrap: 'wrap' }} >
                 <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaEnvelope />} href="mailto:david@fortc.com">
                         Email David
+                </Button>
+                <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaGithub />} href="https://github.com/dfinr/lultr">
+                        Project Repo
                 </Button>
             </Box>
 
