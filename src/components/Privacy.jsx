@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, CssBaseline, Typography, Box } from '@mui/material/';
-import { FaHome, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 import Copyright from "./Copyright";
 
 function Privacy() {
@@ -13,12 +13,6 @@ function Privacy() {
                 <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaHome />} 
                     href="/">
                         Home
-                </Button>
-                <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaTwitter />} href="https://twitter.com/LultrCom">
-                        @LultrCom
-                </Button>
-                <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaEnvelope />} href="mailto:lultr@pm.me">
-                        lultr@pm.me
                 </Button>
             </Box>
             <Box sx={{ display: 'flex', margin: '2rem auto 4rem', justifyContent: 'center', flexDirection: 'column', flexWrap: 'wrap' }} >

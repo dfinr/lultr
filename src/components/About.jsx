@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, CssBaseline, Typography, Box } from '@mui/material/';
-import { FaHome, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaEnvelope } from 'react-icons/fa';
 import Copyright from "./Copyright";
 
 function About() {
@@ -14,18 +14,24 @@ function About() {
                     href="/">
                         Home
                 </Button>
-                <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaEnvelope />} href="mailto:david@fortc.com">
-                        Email David
-                </Button>
             </Box>
 
             <Box sx={{ display: 'flex', margin: '2rem auto 4rem', justifyContent: 'center', flexDirection: 'column', flexWrap: 'wrap' }} >
                 <Typography paragraph variant="h1" align="center">
                     About
                 </Typography>
-                <Typography paragraph sx={{ textAlign: 'left' }} variant="body2" gutterBottom>
-                    Lultr.com curates jokes that are 250 characters or less. All jokes are the property of their respective owners. We provide links to credit when known, and will remove them if requested by the author.
+                <Typography paragraph sx={{ textAlign: 'center' }} variant="body2" gutterBottom>
+                    Lultr.com curates jokes that are 250 characters or less.<br />
+                    All jokes are the property of their respective owners.<br />
+                    Credit is provided when known.
                 </Typography>
+
+                <Box sx={{ display: 'flex', margin: '1rem auto 1rem', justifyContent: 'center', flexDirection: 'row', flexWrap: 'wrap' }} >
+                <Button sx={{ margin: '0px 6px 0px 6px' }} variant="outlined" startIcon={<FaEnvelope />} href="mailto:david@fortc.com">
+                        Email David
+                </Button>
+            </Box>
+
                 </Box>
                 <Copyright />
             </Box>
